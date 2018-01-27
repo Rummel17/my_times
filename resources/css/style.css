@@ -51,12 +51,11 @@ main {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  margin: 0px 0px 0px 30px;
+  margin: 0px 30px 0px 30px;
 }
 
 .lead-story {
   display: block;
-  margin: 0px 30px 50px 0px;
 }
 .image-content{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
@@ -64,6 +63,12 @@ main {
   display: flex;
   min-width: 630px;
   height: 300px;
+}
+.image-content span {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  color:white;
 }
 p.text {
   display:block;
@@ -82,7 +87,7 @@ p.text {
 .story {
   display: flex;
   flex-direction: column;
-  margin: 0px 30px 0px 0px;
+
 }
 .article{
   display: block;
@@ -96,11 +101,6 @@ p.text {
   justify-content: center;
   min-width: 300px;
   height: 300px;
-}
-.test {
-  height: 50px;
-  width: 50px;
-  background-color: orange;
 }
 .image span {
   font-family: Georgia;
