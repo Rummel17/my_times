@@ -62,7 +62,6 @@ main {
   display: flex;
   flex-direction: column;
   margin: 130px 0px 50px 30px;
-  flex-grow: 1;
 }
 
 span.lead-story {
@@ -136,7 +135,6 @@ span.picture.hipster {
 .medium.column {
   width: 300px;
   height: auto;
-  flex-grow: 1;
   margin: 130px 0px 50px 30px;
 
 }
@@ -150,7 +148,6 @@ span.picture.cat {
 .small.column {
   width: 240px;
   height: auto;
-  flex-grow: 1;
   margin:130px 30px 50px 30px;
 }
 .news img {
