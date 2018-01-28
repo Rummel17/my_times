@@ -16,7 +16,6 @@ header {
   position: fixed;
   z-index: 5;
   background-color: white;
-  width: 100%;
 }
 
 .logo {
@@ -26,6 +25,7 @@ align-items: center;
 flex-grow: 1;
 margin-left: 20px;
 }
+
 
 .logo img {
   width: 70px;
@@ -44,6 +44,8 @@ nav {
 
 nav span{
   padding: 0px 10px;
+
+
 }
 
 nav span a {
@@ -120,14 +122,14 @@ span.picture.fall, span.picture.hipster, span.picture.cat  {
 }
 span.picture.fall {
 background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
-background-size: cover;
+
 display: flex;
 align-items: center;
 }
 
 span.picture.hipster {
  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
- background-size: cover;
+
  display: flex;
  align-items: center;
 }
@@ -140,7 +142,6 @@ span.picture.hipster {
 }
 span.picture.cat {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
-  background-size: cover;
   display: flex;
   align-items: center;
 }
